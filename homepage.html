@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homepage</title>
+    <link rel="stylesheet" href="../css/tailwind.css">
+
+    <style>
+      .news {
+        justify-content: center;
+      }
+    </style>
+</head>
+<body>
+
+    <!-- header -->
+    <header class="flex justify-between px-20 items-center mb-2 border-b border-gray-100">
+        <!-- logo contents -->
+        <div class="flex items-center">
+          <img src="./images/gdg_logo.png" alt="" class="w-16">
+          <p class="text-[22px] text-gray-500">
+            <span class="text-blue-500">G</span>
+            <span class="text-red-500">o</span>
+            <span class="text-green-500">o</span>
+            <span class="text-blue-500">g</span>
+            <span class="text-green-500">l</span>
+            <span class="text-red-500">e</span> Developers Group</p>
+        </div>
+
+        <!-- navigation bar -->
+        <nav class="flex gap-10 text-[15px] px-4 py-1 rounded-full text-blue-500 font-sans">         
+            <a href="" class="">
+              <span class="">Homepage</span>
+            </a>
+            <a href="#events" class="">
+              <span class="">Events</span>
+            </a>
+            <a href="#mentoring" class="">
+              <span class="">Mentoring</span>
+            </a>
+            <a href="" class="">
+              <span class="">Contact Us</span>
+            </a>  
+        </nav>
+        
+        <!-- user section -->
+        <div class="flex gap-4 items-center">
+            <div class="h-8 w-16 text-center hover:border border-blue-500 rounded-lg">
+              <p class="text-blue-500"><a href="./signup.html" class="">sign in</a></p>
+            </div>
+            <a href="./login.html" class="p-2 bg-blue-700 rounded-full">
+              <img src="./images/user2.svg" alt="user" class="w-4">
+            </a>
+        </div>
+      </header>
+
+      <!-- main contents -->
+      <main class="mt-2">
+
+        <!-- welcome -->
+        <div class="relative bg-center bg-cover " style="height: 600px; background-image: url(./images/welcome.jpg);">
+            <section class="absolute inset-0 flex flex-col items-center justify-center bg-opacity-80">
+                <div class="text-center">
+                    <p class="text-lg font-bold">Welcome To</p>
+                    <p class="uppercase text-[150px] font-bold -my-8 ">gdg</p>
+                    <p class="uppercase text-xl ">google developers group</p>
+                    <p class="bg-gradient-to-l from-red-500 via-blue-500 to-green-500 p-2 rounded-full text-white">Let's Connects and Explore the World of Technology.</p>
+                </div>
+                <a href="./signup.html" class="mt-14 text-3xl text-white bg-blue-700 py-3 px-6 hover:border border-blue-500">Join GDG</a>
+            </section>
+        </div>
+
+        <!-- news section -->
+        <div class="news">
+            <section class="relative bg-cover bg-center h-[150px]" style="background-image: url(./images/tech_news.webp);">
+                <h2 class="uppercase text-[70px] text-right text-cyan-500 font-bold pr-10">tech News</h2>
+            </section>
+            <!-- news -->
+            <section class="container w-3/4 m-auto">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 bg-blue-200 p-4 gap-2">
+                    <div class="flex flex-col bg-white text-gray-800 p-5 rounded-lg ">
+                        <img src="./images/conference.jpg" alt="" class="">
+                        <h2 class="text-xl font-bold mb-4 text-center">Latest News</h2>
+                        <p class="text-left">Stay updated with the latest tech trends and news in our community. <a href="#" class="italic text-blue-500">more...</a></p>
+                    </div>
+                    <div class="flex flex-col bg-white text-gray-800 p-5 rounded-lg">
+                        <img src="./images/conference.jpg" alt="" class="">
+                        <h2 class="text-xl font-bold mb-4 text-center">Latest News</h2>
+                        <p class="text-left">Stay updated with the latest tech trends and news in our community. <a href="#" class="italic text-blue-500">more...</a></p>
+                    </div>
+                    <div class="flex flex-col bg-white text-gray-800 p-5 rounded-lg">
+                        <img src="./images/conference.jpg" alt="" class="">
+                        <h2 class="text-xl font-bold mb-4 text-center">Latest News</h2>
+                        <p class="text-left">Stay updated with the latest tech trends and news in our community. <a href="#" class="italic text-blue-500">more...</a></p>
+                    </div>
+                    <div class="flex flex-col bg-white text-gray-800 p-5 rounded-lg">
+                        <img src="./images/conference.jpg" alt="" class="">
+                        <h2 class="text-xl font-bold mb-4 text-center">Latest News</h2>
+                        <p class="text-left">Stay updated with the latest tech trends and news in our community. <a href="#" class="italic text-blue-500">more...</a></p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+          <!-- other contents
+          <div class="container mt-2 p-10">
+            <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              !-- Latest news --
+              <div class="bg-red-500 text-white p-6 rounded-lg shadow">
+                  <h2 class="text-xl font-bold mb-4">Latest News</h2>
+                  <p>Stay updated with the latest tech trends and news in our community.</p>
+              </div>
+
+              !-- advocacy hub --
+              <div class="bg-blue-500 text-white p-6 rounded-lg shadow">
+                  <h2 class="text-xl font-bold mb-4">Advocacy Hub</h2>
+                  <p>Showcase and promote the use of Google technologies and other developers tools/resources.</p>
+              </div>
+
+              !-- events --
+              <div class="bg-green-500 text-white p-6 rounded-lg shadow">
+                  <h2 class="text-xl font-bold mb-4">Events</h2>
+                  <p>Explore upcoming tech events, webinars, and meetups in our community.</p>
+              </div>
+            </section>
+          </div> -->
+
+          <!-- organizers -->
+          <div class="mb-2">
+              <h2 class="text-3xl mb-2 text-black text-left ml-10">Organizers to Follow</h2>
+              <section class="w-full h-[320px] bg-blue-200 flex justify-center items-center gap-4">
+                  <!-- google -->
+                  <div class="flex flex-col basis-1/6 h-[320px] bg-white p-4 justify-center items-center">
+                      <img src="./images/google_logo.jpg" alt="" class="w-28 h-20 rounded-full">
+                      <p class="text-lg font-bold mt-2 mb-12">Google</p>
+                      <a href="#" class="text-white px-6 py-2 bg-blue-500 rounded-lg font-bold">Follow</a>
+                  </div>
+                  <!-- apesin -->
+                  <div class="flex flex-col basis-1/6 h-[320px] bg-blue-700  p-4 justify-center items-center">
+                      <img src="./images/Apesin.jpg" alt="" class="w-20 h-20 rounded-full">
+                      <p class="text-lg font-bold mt-2 mb-12 text-white">Apesin</p>
+                      <a href="#" class="text-white px-6 py-2 bg-blue-500 rounded-lg font-bold">Follow</a>
+                  </div>
+                  <!-- easy buy -->
+                  <div class="flex flex-col basis-1/6 h-[320px] bg-red-700 p-4 justify-center items-center">
+                      <img src="./images/easyBuy.jpg" alt="" class="w-20 h-20 rounded-full">
+                      <p class="text-lg font-bold mt-2 mb-12 text-white">EasyBuy4Me</p>
+                      <a href="#" class="text-red-700 px-6 py-2 bg-white rounded-lg font-bold">Follow</a>
+                  </div>
+                  <!-- nacos -->
+                  <div class="flex flex-col basis-1/6 h-[320px] bg-white p-4 justify-center items-center">
+                      <img src="./images/nacos.jpg" alt="" class="w-20 h-20 rounded-full">
+                      <p class="text-lg font-bold mt-2 mb-12 text-green-700">NACOS FuLafia</p>
+                      <a href="#" class="text-white px-6 py-2 bg-green-700 rounded-lg font-bold">Follow</a>
+                  </div>
+                  <!-- flutter -->
+                  <div class="flex flex-col basis-1/6 h-[320px] bg-blue-950 p-4 justify-center items-center">
+                      <img src="./images/flutter_logo.png" alt="" class="w-20 h-16 bg-gray-400 rounded-full">
+                      <p class="text-lg font-bold mt-2 mb-12 text-white">Flutter</p>
+                      <a href="#" class="text-blue-950 px-6 py-2 bg-white rounded-lg font-bold">Follow</a>
+                  </div>
+              </section>
+
+          </div>
+
+          <div class="h-0.5 m-auto w-11/12 bg-gradient-to-r from-blue-500 via-red-500 to-green-500"></div>
+
+          <!-- mentorship -->
+          <div class="flex justify-center items-center w-4/5 m-auto my-5" id="mentoring">
+              <section class="basis-1/2">
+                  <img src="./images/tutoring.jpg" alt="mentoring image" class="w-[500px] h-[350px] rounded-tl-[70px] rounded-br-[70px]">
+              </section>
+              <section class="basis-1/2 text-right">
+                  <span class="uppercase font-bold text-right text-6xl bg-gradient-to-r from-blue-500 via-red-500 to-green-500 text-transparent bg-clip-text">mentorship<br>program</span>
+                  <p class="font-bold mb-8">Nurturing ExcellenceThrough Mentorship</p>
+                  <button class="bg-[#f4f4f4] text-[25px] px-6 py-2 ml-10 text-cyan-800 hover:text-[#f4f4f4] hover:bg-red-500">Get Started</button>
+              </section>
+          </div>
+          
+          <div class="h-0.5 m-auto w-11/12 bg-gradient-to-r from-blue-500 via-red-500 to-green-500"></div>
+
+          <!-- more tech events -->
+          <div class="my-2 h-[340px]" id="events">
+              <h2 class="text-3xl text-blue-500 ml-10">Explore More Tech Events</h2>
+              <div class="h-1 bg"></div>
+              <section class="grid grid-cols-3 gap-4 px-10 py-2">
+                <!-- row 1 -->
+                  <a href="" class="flex items-center p-2 gap-2 hover:border border-blue-500 shadow-md shadow-blue-500 rounded-3xl">
+                      <img src="./images/convention.jpg" alt="" class="h-28 w-28 rounded-full">                    
+                      <h3 class="font-bold">Conventions</h3>
+                  </a>
+                  <a href="" class="flex items-center p-2 gap-2 hover:border border-green-500 shadow-md shadow-green-500 rounded-3xl">
+                      <img src="./images/seminars.jpg" alt="" class="h-28 w-28 rounded-full">                    
+                      <h3 class="font-bold">Seminars</h3>
+                  </a>
+                  <a href="" class="flex items-center p-2 gap-2 hover:border border-red-500 shadow-md shadow-red-500 rounded-3xl">
+                      <img src="./images/conference.jpg" alt="" class="h-28 w-28 rounded-full">                    
+                      <h3 class="font-bold">Conferences</h3>
+                  </a>
+                <!-- row 2 -->
+                  <a href="" class="flex items-center p-2 gap-2 hover:border border-red-500 shadow-md shadow-red-500 rounded-3xl">
+                      <img src="./images/networking.jpg" alt="" class="h-28 w-28 rounded-full">                    
+                      <h3 class="font-bold">Networking</h3>
+                  </a>
+                  <a href="" class="flex items-center p-2 gap-2 hover:border border-blue-500 shadow-md shadow-blue-500 rounded-3xl">
+                      <img src="./images/games.jpg" alt="" class="h-28 w-28 rounded-full">                    
+                      <h3 class="font-bold">Games</h3>
+                  </a>
+                  <a href="" class="flex items-center p-2 gap-2 hover:border border-green-300 shadow-md shadow-green-500 rounded-3xl">
+                      <img src="./images/retreat.jpg" alt="" class="h-28 w-28 rounded-full">                    
+                      <h3 class="font-bold">Retreat</h3>
+                  </a>
+              </section>
+              <a href="#" class="text-blue-500 hover:text-blue-900 text-center">view more...</a>
+          </div>
+
+          <!-- asked questions -->
+          <!-- <div class="flex items-center mb-4">
+              !-- questions --
+              <section class="">
+                  <div class="flex justify-between bg-gray-200">
+                      <span class="">Why am I missing events older than 1 year on my mobile app?</span>
+                      <img src="./images/plus.svg" alt="" class="w-4">
+                  </div>
+              </section>
+              !-- image --
+              <div class="h-[550px] w-[500px] bg-yellow-500 rounded-tl-[40px] rounded-br-[40px]">
+                  <img src="./images/frequently asked questions.png" alt="" class="w-[250px ] h-[500px] object-cover mt-14"> 
+              </div>
+          </div> -->
+      </main>
+
+      <!-- footer -->
+      <footer class="bg-blue-800 mt-5 px-16 py-10">
+          <div class="flex w-full">
+            <!-- useful links -->
+              <section class="basis-1/2">
+                <h2 class="font-bold text-white">Useful Links</h2>
+                <ul class="text-white mt-3">
+                  <li class="flex gap-2">
+                      <img src="./images/microphone.svg" alt="microphone-solid" class="w-4 h-4 rounded-full">
+                      <a href="" class="">Speakers</a>
+                  </li>
+                  <li class="flex gap-2 my-3">
+                      <img src="./images/agender.svg" alt="agender" class="w-4 h-4 rounded-full">
+                      <a href="" class="">Agender</a>
+                  </li>
+                  <li class="flex gap-2">
+                      <img src="./images/question-solid.svg" alt="agender" class="w-4 h-4 rounded-full">
+                      <a href="" class="">Why attend?</a>
+                  </li>
+                  <li class="flex gap-2 my-3">
+                      <img src="./images/partners.svg" alt="agender" class="w-4 h-4 rounded-full">
+                      <a href="" class="">Partners</a>
+                  </li>
+                  <li class="flex gap-2">
+                      <img src="./images/venue.svg" alt="agender" class="w-4 h-4 rounded-full">
+                      <a href="" class="">Venue</a>
+                  </li>
+                  <li class="flex gap-2 mt-3">
+                      <img src="./images/register.svg" alt="agender" class="w-4 h-4 rounded-full">
+                      <a href="" class="">Register</a>
+                  </li>
+                </ul>
+              </section>
+            <!-- contact us -->
+              <section class="basis-1/2 text-white">
+                  <h2 class="font-bold">Contact us</h2>
+                  <ul class="mt-3">
+                      <li class=""><a href="" class="">www.gdglafia.com</a></li>
+                      <li class="my-3"><a href="" class="">Speakers enquiries</a></li>
+                      <li class=""><a href="" class="">Tickets enquiries</a></li>
+                  </ul>
+
+                  <div class="h-0.5 w-36 bg-white my-7"></div>
+
+                  <ul class="">
+                      <li class="my-3"><a href="#" class="">Privacy policy</a></li>
+                      <li class=""><a href="#" class="">Cookie policy</a></li>
+                  </ul>
+              </section>
+          </div>
+
+          <div class="bg-gradient-to-r from-green-500 via-white to-red-500 h-0.5 w-full my-3"></div>
+
+          <!-- social media handle -->
+          <div class="">
+              <h2 class="font-bold text-white">Join us on</h2>
+              <section class="flex gap-12 mt-3">
+                  <a href="" class="">
+                    <img src="./images/social media/linkedin.svg" alt="" class="w-8">
+                  </a>
+                  <a href="" class="">
+                    <img src="./images/social media/x-twitter.svg" alt="" class="w-8">
+                  </a>
+                  <a href="" class="">
+                    <img src="./images/social media/facebook.svg" alt="" class="w-8">
+                  </a>
+                  <a href="" class="">
+                    <img src="./images/social media/github.svg" alt="" class="w-8">
+                  </a>
+                  <a href="" class="">
+                    <img src="./images/social media/instagram.svg" alt="" class="w-8">
+                  </a>
+                  <a href="" class="">
+                    <img src="./images/social media/whatsapp.svg" alt="" class="w-8">
+                  </a>
+                  <a href="" class="">
+                    <img src="./images/social media/phone.svg" alt="" class="w-8">
+                  </a>
+              </section>
+          </div>
+      </footer>
+</body>
+</html>
